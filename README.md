@@ -35,7 +35,7 @@
 ## 接続
 
 USBシリアル変換モジュールをIchigoJamに接続し、  
-パソコン間とIchigoJam間でシリアル通信が出来る様態にします。  
+パソコン間とIchigoJam間でシリアル通信が出来るようにします。  
 
 ![img/screen.png](img/tool14.png) 
 
