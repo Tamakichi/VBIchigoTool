@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 
 ' アセンブリ属性の値を確認します。
 
-<Assembly: AssemblyTitle("IchigoTool 1.03")> 
+<Assembly: AssemblyTitle("IchigoTool 1.05")>
 <Assembly: AssemblyDescription("プログラムのアップロード・ダウンロードツール")> 
 <Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("IchihoTool")>
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' 既定値にすることができます:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.4.0")>
-<Assembly: AssemblyFileVersion("1.0.4.0")>
+<Assembly: AssemblyVersion("1.0.5.0")>
+<Assembly: AssemblyFileVersion("1.0.5.0")>
 
 <Assembly: NeutralResourcesLanguageAttribute("ja-JP")> 

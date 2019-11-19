@@ -1,6 +1,6 @@
 '
 ' IchigoJamデータ書き込みツール
-' 最終修正日 2019/11/19 v1.04
+' 最終修正日 2019/11/19 v1.05
 '
 
 Imports System.Threading
@@ -200,10 +200,14 @@ FOREND:
         End Try
         addLog("シリアル接続しました.")
 
-        'LIST コマンドの送信
 
+        'LIST コマンドの送信
+        SerialPort1.Write(Chr(27)) 'ESC(中断)
+        Thread.Sleep(400)
         SerialPort1.WriteLine("")
         Thread.Sleep(50)
+        SerialPort1.ReadExisting()
+
         SerialPort1.WriteLine("LIST")
         Thread.Sleep(1000)
 
