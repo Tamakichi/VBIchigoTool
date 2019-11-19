@@ -13,14 +13,14 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("IchigoTool 1.03")> 
 <Assembly: AssemblyDescription("プログラムのアップロード・ダウンロードツール")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("IchihoTool")> 
-<Assembly: AssemblyCopyright("Copyright ©  2015 たま吉さん")> 
+<Assembly: AssemblyProduct("IchihoTool")>
+<Assembly: AssemblyCopyright("Copyright ©  2019 たま吉さん")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
 
 'このプロジェクトが COM に公開される場合、次の GUID がタイプ ライブラリの ID になります。
-<Assembly: Guid("315a44d0-e1d3-4f73-8a61-694cb68bf307")> 
+<Assembly: Guid("315a44d0-e1d3-4f73-8a61-694cb68bf307")>
 
 ' アセンブリのバージョン情報は、以下の 4 つの値で構成されています:
 '
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' 既定値にすることができます:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.3.0")> 
-<Assembly: AssemblyFileVersion("1.0.3.0")> 
+<Assembly: AssemblyVersion("1.0.4.0")>
+<Assembly: AssemblyFileVersion("1.0.4.0")>
 
 <Assembly: NeutralResourcesLanguageAttribute("ja-JP")> 

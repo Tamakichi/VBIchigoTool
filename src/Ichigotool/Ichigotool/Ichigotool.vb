@@ -1,6 +1,6 @@
 '
 ' IchigoJamデータ書き込みツール
-' 最終修正日 2015/05/24 v1.03
+' 最終修正日 2019/11/19 v1.04
 '
 
 Imports System.Threading
@@ -95,6 +95,7 @@ Public Class Ichigotool
          End Sub)
 
         'NEW コマンドの送信
+        SerialPort1.Write(Chr(27)) 'ESC(中断)
         Thread.Sleep(400)
         SerialPort1.WriteLine("")
         Thread.Sleep(400)

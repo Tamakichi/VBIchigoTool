@@ -25,14 +25,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <SupportUrl>http://nuneno.cocolog-nifty.com/blog/</SupportUrl>
+    <SupportUrl>https://github.com/Tamakichi/VBIchigoTool</SupportUrl>
     <TargetCulture>ja-JP</TargetCulture>
     <ProductName>IchigoTool</ProductName>
     <PublisherName>たま吉さん</PublisherName>
     <SuiteName>たま吉さん</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.3.0</ApplicationVersion>
+    <ApplicationVersion>1.0.4.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
